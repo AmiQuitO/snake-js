@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='pl-PL'>
+	<head>
+		<meta charset='utf-8'>
+		<link rel='stylesheet' type='text/css' href='styl.css' />
+		<script type='text/javascript' src='skrypt.js'></script>
+	</head>
+	<body onkeydown='f(event)'>
+		<main>
+			<div id='kontener'>
+				<div id="temp">
+					Wybierz:
+					<p>Szerokosc: <input id="szer" type="number" value="5"></p>
+					<p>Wysokosc: <input id="wys" type="number" value="5"></p>
+					<input type="button" onclick="stworzplansze(), losowaniepozycja(), losowanie()" value="Stworz plansze">
+				</div>
+				<br>
+			</div>
+			<div id="kontener2">
+				<div id='punkty'></div>
+				<div id='level'></div>
+				<div id='speed'></div>
+			</div>
+		</main>
+	</body>
+</html>
